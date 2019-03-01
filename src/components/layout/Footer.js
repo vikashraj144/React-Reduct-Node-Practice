@@ -6,9 +6,9 @@ import {Link} from "react-router-dom";
 const Footer = (props) => {
     return (
         <footer>
-            <p>Posted by: Hege Refsnes</p>
-            <p>Contact information: <a href="mailto:someone@example.com">
-            someone@example.com</a>.</p>
+            <p>Posted by: vikask</p>
+            <p>Contact information: <a href="mailto:vikashraj144@gmail.com">
+            email here</a>.</p>
         </footer>
     );
 };
