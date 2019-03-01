@@ -1,5 +1,7 @@
 import React,{Component} from "react";
 
+import {Container, Button} from 'react-bootstrap';
+
 class ComLifeCycle extends Component {
     constructor(props) {
         super(props);
@@ -14,10 +16,10 @@ class ComLifeCycle extends Component {
      }
      render() {
         return (
-           <div>
-              <button onClick = {this.setNewNumber}>INCREMENT</button>
-              <Content myNumber = {this.state.data}></Content>
-           </div>
+            <Container>
+                <Button variant="primary" onClick = {this.setNewNumber}>INCREMENT</Button>
+                <Content myNumber = {this.state.data}></Content>
+            </Container>
         );
      }
 }
