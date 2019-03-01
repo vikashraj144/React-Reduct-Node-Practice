@@ -20,6 +20,10 @@ const rightContainer = {
   color: 'red',
   border: '2px solid pink'
 };
+const rowHeight = {
+  height: '530px',
+  'margin-right':'0px'
+}
 class App extends Component {
   render() {
     return (
@@ -27,7 +31,7 @@ class App extends Component {
         <div>
           <Header subtitle="React Practice"/>
           {/* <Container> */}
-            <Row>
+            <Row style={rowHeight}>
               <Col xs={2} style={leftContainer}>
                 <Sidebar/>
               </Col>
