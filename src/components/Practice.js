@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from 'react-router-dom';
 
 class Practice extends React.Component{
 
@@ -6,6 +7,10 @@ class Practice extends React.Component{
         return(
             <div>
                 Practice
+                <ol>
+                <li><NavLink to="/lifeCycle">Life Cycle</NavLink></li>
+
+                </ol>
             </div>
         )
     }
